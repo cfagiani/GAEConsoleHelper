@@ -1,0 +1,14 @@
+{
+  "name": "Appengine Console Helper",
+  "version": "1.0",
+  "description": "Opens the Appengine Admin Console for the app in the currently open tab",
+  "background_page": "background.html",
+  "page_action": {
+    "default_name": "Show Admin Console",
+    "default_icon": "icon.png"    
+  },
+  "permissions": [
+    "tabs", "http://appengine.google.com/*"
+  ]  ,
+  "content_security_policy": "script-src 'self'"
+}
